@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lora, Open_Sans } from "next/font/google";
 import Script from "next/script";
+import Link from "next/link";
 import "../vendor/bootstrap/css/bootstrap.min.css";
 import "../css/clean-blog.min.css";
 import "../vendor/font-awesome/css/font-awesome.min.css";
@@ -41,9 +42,9 @@ export default function RootLayout({
                 <span className="sr-only">Toggle navigation</span>
                 Menu <i className="fa fa-bars"></i>
               </button>
-              <a className="navbar-brand" href="index.html">
+              <Link className="navbar-brand" href="/">
                 Start Bootstrap
-              </a>
+              </Link>
             </div>
 
             <div
@@ -52,16 +53,16 @@ export default function RootLayout({
             >
               <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <a href="index.html">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <a href="post.html">Sample Post</a>
+                  <Link href="/post">Sample Post</Link>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
