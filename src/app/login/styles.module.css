@@ -1,0 +1,13 @@
+.login {
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.submit {
+  border-radius: 4px;
+  padding: 8px 12px;
+}

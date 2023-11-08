@@ -1,7 +1,4 @@
 import Link from "next/link";
-import "@/vendor/bootstrap/css/bootstrap.min.css";
-import "@/css/clean-blog.min.css";
-import "@/vendor/font-awesome/css/font-awesome.min.css";
 
 export default function RootLayout({
   children,
@@ -28,7 +25,6 @@ export default function RootLayout({
           </div>
 
           <div
-            className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
