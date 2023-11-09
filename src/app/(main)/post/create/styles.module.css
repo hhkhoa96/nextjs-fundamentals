@@ -1,0 +1,37 @@
+.form {
+  width: 500px;
+  margin: auto;
+  border: solid 1px lightgrey;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.errorMessage {
+  color: rgb(209, 115, 115);
+  font-size: 14px;
+  margin: 0;
+  opacity: 0;
+}
+
+.error {
+  opacity: 1;
+}
+
+.formFooter {
+  text-align: right;
+}
+
+.formLabel {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.submit {
+  background-color: #FFF;
+  color: black;
+}
+
+.submit:hover {
+  background-color: #FFF;
+  color: black;
+}

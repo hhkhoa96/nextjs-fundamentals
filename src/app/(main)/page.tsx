@@ -7,7 +7,7 @@ export default function Home() {
       <Header
         title="Clean Blog"
         description="A Clean Blog Theme by Start Bootstrap"
-        backgroundImage="url('img/home-bg.jpg')"
+        backgroundImage="url('/img/home-bg.jpg')"
       />
       <div className="container">
         <div className="row">

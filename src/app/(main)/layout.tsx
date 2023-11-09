@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { authorization } from "../actions";
 import Navbar from "@/components/navbar";
 
 async function RootLayout({
