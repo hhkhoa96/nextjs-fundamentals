@@ -1,7 +1,7 @@
-import { authorization } from "@/app/actions";
+import { checkAuthorization } from "@/app/actions";
 
 export default async function CreatePost(props: any) {
-  await authorization("/post/create");
+  await checkAuthorization("/post/create");
 
   return <div>Create Post</div>;
 }

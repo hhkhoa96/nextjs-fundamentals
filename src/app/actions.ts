@@ -29,7 +29,7 @@ export async function login(
   }
 }
 
-export async function authorization(pathname: string) {
+export async function authorization() {
   const value = cookies().get(Headers.Authorization)?.value || "";
 
   try {
@@ -38,6 +38,19 @@ export async function authorization(pathname: string) {
       loggedIn: true,
     };
   } catch (error) {
-    redirect("/login?url=" + pathname);
+    return {
+      loggedIn: false,
+    };
   }
+}
+
+export async function checkAuthorization(pathname: string) {
+  const { loggedIn } = await authorization();
+  if (!loggedIn) {
+    redirect('/login?url=' + pathname)
+  }
+}
+
+export async function logout() {
+  cookies().delete(Headers.Authorization);
 }
