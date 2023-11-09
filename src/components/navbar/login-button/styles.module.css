@@ -1,17 +1,6 @@
 
 .loginButton {
   background-color: transparent;
-  color: #777;
-  padding: 20px;
-  font-size: 12px;
-  text-transform: uppercase;
   outline: none;
   border: none;
-  letter-spacing: 1px;
-  font-weight: 800;
-  line-height: 20px;
-}
-
-.loginButton:hover {
-  color: rgba(255,255,255,.8);
 }
