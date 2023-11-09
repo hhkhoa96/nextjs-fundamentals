@@ -36,9 +36,6 @@ export default async function Navbar() {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/post">Sample Post</Link>
-            </li>
-            <li>
               <Link href="/contact">Contact</Link>
             </li>
             <li>

@@ -6,7 +6,7 @@ export default function Contact() {
       <Header
         title="Contact Me"
         description="Have questions? I have answers (maybe)."
-        backgroundImage="url('img/contact-bg.jpg')"
+        backgroundImage="url('/img/contact-bg.jpg')"
       />
       <div className="container">
         <div className="row">

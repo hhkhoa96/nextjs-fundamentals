@@ -12,7 +12,7 @@ export default function About() {
       <Header
         title="About Me"
         description="This is what I do."
-        backgroundImage="url('img/about-bg.jpg')"
+        backgroundImage="url('/img/about-bg.jpg')"
       />
       <div className="container">
         <div className="row">

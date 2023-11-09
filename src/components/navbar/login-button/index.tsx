@@ -1,6 +1,7 @@
 import { logout } from "@/app/actions";
 import { headers } from "next/headers";
 import Link from "next/link";
+import styles from './styles.module.css';
 
 
 export default function LoginButton({ loggedIn }: {
@@ -10,9 +11,11 @@ export default function LoginButton({ loggedIn }: {
 
   if (loggedIn) {
     return (
-      <form action={logout}>
-        <button>Logout</button>
-      </form>
+      <li>
+        <form action={logout}>
+          <button className={styles.loginButton}>Logout</button>
+        </form>
+      </li>
     )
   }
   return (

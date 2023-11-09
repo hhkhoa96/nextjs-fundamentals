@@ -11,7 +11,6 @@ async function RootLayout({
   return (
     <>
       <Navbar />
-
       {children}
       <hr />
       <footer>
