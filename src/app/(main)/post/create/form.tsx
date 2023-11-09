@@ -55,7 +55,7 @@ export default function CreatePostForm() {
         })} />
         <p className={classNames(styles.errorMessage, {
           [styles.error]: errors.description
-        })}>"* Required"</p>
+        })}>* Required</p>
       </div>
 
       <label className={styles.formLabel} htmlFor="description">Select a thumbnail</label>
