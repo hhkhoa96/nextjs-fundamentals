@@ -5,14 +5,22 @@
   padding: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar ul li {
   padding: 12px;
   font-size: 14px;
+}
+
+.navbar a {
+  color: #777;
+  text-decoration: none;
 }

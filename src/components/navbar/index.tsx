@@ -8,12 +8,12 @@ export default async function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <div className="left">
+      <div>
         <Link href="/">Beautiful Website</Link>
       </div>
-      <div className="right">
-        <ul className="list">
-          <li className="list-item">
+      <div>
+        <ul>
+          <li>
             <Link href="/">Home</Link>
           </li>
           <li>
