@@ -13,7 +13,6 @@
  */
 
 (function( global, factory ) {
-	console.log('### JQUERY')
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
 		// For CommonJS and CommonJS-like environments where a proper `window`

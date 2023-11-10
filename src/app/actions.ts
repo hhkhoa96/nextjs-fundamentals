@@ -16,7 +16,6 @@ export async function login(
   const email = formData.get("email");
   const password = formData.get("password");
 
-  console.log({ formData, searchParams });
   if (email && password) {
     const token = jwt.sign(email, jwtSalt);
     cookies().set(Headers.Authorization, token);
